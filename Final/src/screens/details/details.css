@@ -1,0 +1,29 @@
+.flexcontainer {
+    display: flex;
+    height: 800px;
+    margin: 16px;
+    flex-direction: row;
+    align-content: space-between;
+}
+.child1{
+    flex: 1;
+}
+
+.child2{
+    flex: 3;
+}
+
+.child3{
+    flex: 1;
+}
+.BackLink{
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 24px;
+}
+.moviePoster{
+    height: 240px;
+    width: 150px;
+
+}

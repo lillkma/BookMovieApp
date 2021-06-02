@@ -1,0 +1,32 @@
+
+    .root{
+   
+      margin: 12px;
+      min-width: 240;
+      max-width: 240;
+      max-height:fit-content;
+      margin: 12px;
+     
+    }
+
+    .formControl{
+     margin: auto;
+      
+    }
+    
+    .title {
+      font-size: 14;
+     
+     
+    }
+    .pos {
+      margin-bottom: 12;
+    
+     
+    }
+    .select{
+      size: 10;
+    }
+    .header{
+      color: peru;
+    }

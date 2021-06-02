@@ -1,0 +1,25 @@
+.upcomingMovies {
+    background-color: #ff9999;
+    align-content: center;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    size: 8rem;
+}
+
+.flexcontainer {
+    display: flex;
+    height: 800px;
+    margin: 16px;
+    flex-direction: row;
+    align-content: space-between;
+}
+.child1{
+    flex: 3;
+}
+
+.child2{
+    flex: 1;
+}

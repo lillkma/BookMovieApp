@@ -1,0 +1,30 @@
+.header {
+    background-color: #222;
+    height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+}
+
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    background-color: #ff7f7f;
+    height: 35px;
+    align-self:flex-start;      
+    animation: rotating 2s linear infinite;
+}
+
+.loginLogout{
+    display: flex;
+    justify-content: flex-end;
+}
+
